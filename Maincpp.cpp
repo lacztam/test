@@ -17,14 +17,8 @@ int main()
 
 		if ( (x!=0 || y!=0) && ((x*x + y*y)% 3 == 0 || (x * x + y * y) % 5 == 0) ) irany = !irany;
 		
-		if (irany)
-		{
-			x += 1 ;
-		}
-		else if (!irany)
-		{
-			y += 1 ;
-		}
+		if (irany)x += 1;
+		else if (!irany)y += 1 ;
 
 		i++;
 	}
